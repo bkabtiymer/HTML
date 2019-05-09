@@ -1,0 +1,38 @@
+body {
+    background-color:#ffcc00;
+}
+/*navigation menu styles*/
+nav ul li {
+    float: left;
+    margin-right: 2em;
+    list-style-type: none;
+}
+
+h1{
+    color: midnightblue;
+    text-align: center;
+}
+h3{
+    color: midnightblue;
+    text-align: center;
+}
+p{
+    font-family: Verdana;
+    font-size:12px;
+    text-align: center;
+
+}
+img{
+    height:200px;
+}
+ul{
+    list-style-position: inside;
+    list-style-type: armenian;
+    font-family: Verdana;
+    font-size:12px;
+    text-align: center;
+    img-align:center;
+    }
+li{
+    text-align: center;
+}

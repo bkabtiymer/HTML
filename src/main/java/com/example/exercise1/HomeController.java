@@ -7,13 +7,25 @@ import org.springframework.web.bind.annotation.RequestMapping;
 
 public class HomeController {
     @RequestMapping("/")
-    public String homePage() {
+    public String homepage() {
         return "index";
     }
     @RequestMapping("/crabcakes")
-    public String crabCakes(){
+    public String crabcakes(){
         return "crabcakes";
         }
+    @RequestMapping("/cinnamonrolls")
+    public String cinnamonrolls() {
+        return "cinnamonrolls";
+    }
+    @RequestMapping("/shrimpalfredo")
+    public String shrimpalfredo() {
+        return "shrimpalfredo";
+    }
+    @RequestMapping("/bootstrap")
+    public String bootstrap(){
+        return "bootstrap";
+    }
     }
 
 
